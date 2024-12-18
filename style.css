@@ -1,0 +1,339 @@
+/*
+	Purplicious by Adonis Ronquillo for Free Website Templates
+	www.freewebsitetemplat.es / www.doni.us
+	Images by Image Base http://imagebase.davidniblack.com/
+	Released under the Creative Commons Attribution 3.0 License.
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #E477D4;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 16pt;
+	line-height: 1.75em;
+	background: #98ae5b url(images/bg.jpg) repeat-x top left;
+	color: #C7CFC8;
+}
+
+body,input {
+	font-family: Jura, sans-serif;
+}
+
+br.clear {
+	clear: both;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-size: 1.55em;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+	color: #FFF;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1.15em;
+}
+
+img.left {
+	float: left;
+	margin: 10px 20px 20px 0;
+}
+
+img.top {
+	margin: 5px 0 20px 0;
+}
+
+label.login {
+	display: block;
+	margin: 0 0 6px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin: 0 0 1.5em 0;
+	list-style: none;
+	padding: 0;
+}
+
+ul li {
+	margin: 0;
+	padding: 6px 0;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+.form {
+	margin: 0 0 30px 0;
+}
+
+.inputBox, .inputTextArea {
+	padding: 6px;
+	width: 95%;
+}
+
+.inputButton {
+	padding: 6px;
+	float: right;
+	background: #98ae5b;
+	border: none;
+	color: #FFF;
+	text-transform: uppercase;
+}
+.inputButton1{
+padding:6px;
+float:right;
+background: #98ae5b;
+	border: none;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+#banner {
+	position: relative;
+	padding: 0;
+	height: 320px;
+	width: 1180px;
+	margin: 0 0 0 0;
+	background: #FFF;
+}
+
+#box1 {
+	margin: 0 0 0 0;
+	overflow: hidden;
+}
+
+#box2 {
+	margin: 0 0 0 0;
+	overflow: hidden;
+}
+
+#box3 {
+	overflow: hidden;
+}
+
+#content {
+	width: 620px;
+	float: right;
+	padding: 30px;
+	background: #FFF;
+	color: #5C5C5C;
+}
+
+#content a {
+	color: #262626;
+}
+
+#content h2, #content h3, #content h4 {
+	color: #98ae5b;
+}
+
+#copyright {
+	margin: 0px 10px 10px 0px;
+	
+	text-align: center;
+}
+
+#copyright a {
+	color: #C7CFC8;
+}
+
+#footer {
+	position: relative;
+	padding: 30px;
+	margin: 0;
+	width: 1120px;
+	background: #8f6bb1;
+	color: #D6EDDF;
+}
+
+#footer a {
+	color: #EEF8F2;
+}
+
+#footer h2, #footer h3, #footer h4 {
+	color: #FFF;
+}
+
+#footer ul {
+	padding-left: 1.25em;
+}
+
+#footerContent {
+	width: 300px;
+	float: right;
+}
+
+#footerSidebar1 {
+	width: 350px;
+	float: left;
+}
+
+#footerSidebar2 {
+	width: 350px;
+	margin: 0 30px 0 410px;
+}
+
+#header {
+	position: relative;
+	padding: 0px;
+	height: 60px;
+	width: 1120px;
+}
+
+#logo {
+	position: absolute;
+	bottom: 0;
+	left: 0px;
+	height: 63px;
+	width: 100%;
+	line-height: 63px;
+	background: url(images/logo.jpg) repeat-x bottom right;
+	opacity: 0.7;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 30px;
+}
+
+#logo h1 {
+	font-size: 2.25em;
+}
+
+#main {
+	position: relative;
+	padding: 0;
+	width:100%;
+	margin:0px auto;
+	background: #FFF;
+}
+
+#main .sectionList {
+	list-style: none;
+	padding-left: 0;
+}
+
+#main .sectionList li {
+	clear: both;
+	padding: 20px 0 20px 0;
+}
+
+#main ul {
+	padding-left: 1.25em;
+}
+
+#nav {
+	top: 0;
+	left: 0;
+	height: 80px;
+	line-height: 60px;
+	padding: 0 30px 0 30px;
+	width: 1120px;
+	margin: 0;
+}
+
+#nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+letter-spacing: 2;
+	color: #FFF;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+	display: inline;
+	padding: 0 15px 0 15px;
+}
+
+#nav ul li.first {
+	padding-left: 0;
+}
+
+#outer {
+	position: relative;
+	width: 1180px;
+	margin: 80px auto 0 auto;
+}
+
+#search input.button {
+	margin-left: 1em;
+	border: 0;
+	color: #FFF;
+	background: #E477D4;
+	padding: 5px;
+}
+
+#search input.text {
+	border: solid 1px #B8B8B8;
+	padding: 5px;
+}
+
+#sidebar1 {
+	width: 350px;
+	float: left;
+	padding: 30px;
+	background: #FFF;
+
+	color: #5C5C5C;
+}
+
+#sidebar1 a {
+	color: #98ae5b;
+}
+
+#sidebar1 h2, #sidebar1 h3, #sidebar1 h4 {
+	color: #98ae5b;
+}
+
+#sidebar2 {
+	width: 350px;
+	margin: 0 30px 0 410px;
+	padding: 30px;
+	background: #FFF;
+	color: #5C5C5C;
+}
+
+#sidebar2 a {
+	color: #98ae5b;
+}
+
+#sidebar2 h2, #sidebar2 h3, #sidebar2 h4 {
+	color: #000;
+}

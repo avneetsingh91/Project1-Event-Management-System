@@ -1,0 +1,34 @@
+<html>
+<head>
+<script src="../jquery files/jquery files/jquery.js"></script>
+<script src="../jquery files/jquery files/jquery.min.js"></script>
+<script src="../jquery files/jquery files/jquery-ui.min.js"></script>
+<script>
+$(document).ready(function()
+{
+$(".block").toggle(function()
+{
+/**/$(this).animate({background-color:"black"},1000);
+},function()
+{
+$(this).animate({background-color:"red"},500);
+
+}); });
+</script>
+<style>
+.block
+{
+color:white;
+background-color:red;
+width:150px;
+height:70px;
+margin:10px;
+}
+</style>
+</head>
+<body>
+<div class="block">click me</div>
+</body>
+</html>
+
+

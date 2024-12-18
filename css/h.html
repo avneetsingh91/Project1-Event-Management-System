@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="css/sliderman.css" />
+	<script type="text/javascript" src="js/sliderman.1.3.7.js"></script>	
+
+	<style>
+	.a
+	{
+		background:#999;
+		margin-left:200px;
+		width:1000px;
+		height:50px;
+		text-align:center;
+	}
+    </style>
+    
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+			<div id="SliderName_2" class="SliderName_2" style="background:#033;">
+					<img src="img/1.jpg" width="700" height="280" alt="Demo2 first" title="Demo2 first" usemap="#img1map" />
+					<img src="img/2.jpg" width="700" height="280" alt="Demo2 second" title="Demo2 second" />
+					<img src="img/3.jpg" width="700" height="280" alt="Demo2 third" title="Demo2 third" />
+					<img src="img/4.jpg" width="700" height="280" alt="Demo2 fourth" title="Demo2 fourth" />
+					<img src="img/5.jpg" width="700" height="280" alt="Demo2 second" title="Demo2 second" />
+					<img src="img/7.jpg" width="700" height="280" alt="Demo2 fourth" title="Demo2 fourth" />					
+					
+				</div>
+				<div id="SliderNameNavigation_2" style="position:absolute;" style="background:#999;"></div>
+					</div>					
+
+
+				<script type="text/javascript">
+					effectsDemo2 = 'rain,stairs,fade';
+					var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: 1120, height: 280, effects: effectsDemo2,
+						display: {
+							autoplay: 3000,
+							loading: {background: '#000000', opacity: 0.5, image: 'img/loading.gif'},
+							buttons: {hide: true, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}},
+							description: {hide: true, background: '#000000', opacity: 0.4, height: 50, position: 'bottom'},
+							navigation: {container: 'SliderNameNavigation_2', label: '<img src="img/clear.gif" />'}
+						}
+					});
+				</script>
+
+</body>
+</html>
